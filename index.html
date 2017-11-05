@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <!-- Include the core AngularJS library-->
+        <script src="//code.angularjs.org/1.6.0-rc.0/angular.min.js"></script>
+
+        <!-- Include the AngularJS routing library -->
+        <script src="//code.angularjs.org/1.6.0-rc.0/angular-route.min.js"></script>
+    
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+        <script src="app.js"></script>
+        
+        <base href="/">
+    </head>
+
+    <body ng-controller="mainController">
+        
+        <div ng-include="'html/navbar.html'"></div>
+        
+        <div id="main">
+            <div ng-view></div>
+        </div>
+        
+    </body>
+    
+    <script src="js/controllers/navController.js"></script>
+    <script src="css/navbar.css"></script>
+    <script src="js/controllers/blogController.js"></script>
+
+</html>
