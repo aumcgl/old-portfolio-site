@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html ng-app="myApp" class="all">
+    
     <head>
-        <!-- Include the core AngularJS library-->
+        <!-- ANGULAR MAGIC -->
         <script src="//code.angularjs.org/1.6.0-rc.0/angular.min.js"></script>
-
-        <!-- Include the AngularJS routing library -->
         <script src="//code.angularjs.org/1.6.0-rc.0/angular-route.min.js"></script>
     
+        <!-- SCROLLS OF PRETTINESS -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+        <link href="css/main.css" rel = "stylesheet" />
+        
+        <!-- MAIN JS AND ROUTING -->
         <script src="app.js"></script>
         
+        <!-- CLEAN URL -->
         <base href="/">
     </head>
-
+    
+    
+    
+    <!-- THE ACTUAL WEB APP -->
     <body ng-controller="mainController">
         
+        <!-- NAVBAR -->
         <div ng-include="'html/navbar.html'"></div>
+    
         
+        <!-- HTML INJECTION FROM ROUTING -->
         <div id="main">
             <div ng-view></div>
         </div>
         
+        
+        <div class="test"><h1>TEST VALUE</h1></div>
+        
     </body>
     
-    <script src="js/controllers/navController.js"></script>
-    <script src="css/navbar.css"></script>
+    
+    
+    <!-- CONTROLLERS -->
+    <script src="js/controllers/contactController.js"></script>
     <script src="js/controllers/blogController.js"></script>
+    <script src="js/controllers/ccvController.js"></script>
+    <script src="js/controllers/portController.js"></script>
+    <script src="js/controllers/mainController.js"></script>
+    
+    <!-- DIRECTIVES -->
+    <script src="js/directives/setClassWhenAtTop.js"></script>
 
 </html>

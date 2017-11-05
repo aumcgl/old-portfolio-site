@@ -14,19 +14,19 @@ myApp.config(function($routeProvider, $locationProvider) {
          })
     .when('/resume', {
          templateUrl : 'html/ccv.html',
-         controller  : 'mainController'
+         controller  : 'ccvController'
          })
     .when('/contact', {
          templateUrl : 'html/contact.html',
-         controller  : 'mainController'
+         controller  : 'contactController'
+         })
+    .when('/portfolio', {
+         templateUrl : 'html/portfolio.html',
+         controller  : 'portController'
          })
     .when('/index.html', { 
       redirectTo: '/' 
         });
     $locationProvider.html5Mode(true);
-});
-
-myApp.controller('mainController', function($scope){
-    $scope.message = 'Home Page';
 });
 
