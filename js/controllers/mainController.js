@@ -1,3 +1,3 @@
 myApp.controller('mainController', function($scope){
-    $scope.message = 'Home Page';
+    $scope.message = 'Intro about me';
 });

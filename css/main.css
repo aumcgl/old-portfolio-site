@@ -37,5 +37,9 @@ ul.nav.navbar-nav a:hover{
 /*BODY*/
 
 body { 
-    padding-top: 125px; 
+    padding-top: 130px !important; 
+}
+
+.test{
+    text-align: center;
 }
