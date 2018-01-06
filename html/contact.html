@@ -1,29 +1,30 @@
 <div class="contact">
 	<h1>Contact Me:</h1>
-    <form action="">
-
-    <label for="name">Name</label>
-    <br/>
-    <input type="text" id="name" name="firstname" placeholder="Your name..">
-
+    <form action="../sendemail.php" method="post" enctype="text/plain">
+    
+    <span> 
+        
+    <label for="name">Name: </label>
+    <input class="contact" type="text" id="name" name="name" placeholder="Your name.." />
+    
     <br/>
     <br/>
         
-    <label for="subject">Subject</label>
-    <br/>
-    <textarea id="subject" name="subject" placeholder="What is this about?" style="height:50px width:500px"></textarea>
+    <label for="email">Email: </label>
+    <input class="contact" type="text" id="email" name="email" placeholder="marySue@example.com" />
     
     <br/>
     <br/>
         
     <label for="message">Message:</label>
     <br/>
+        
     <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
     <br/>
     <br/>
         
-    <input type="submit" value="Submit">
-
+    <input type="submit" value="Submit" class="btn-lg btn-info" />
+        
+    </span>
   </form>
 </div>

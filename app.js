@@ -24,9 +24,11 @@ myApp.config(function($routeProvider, $locationProvider) {
          templateUrl : 'html/portfolio.html',
          controller  : 'portController'
          })
-    .when('/index.html', { 
+    .when('/html/index.html', { 
       redirectTo: '/' 
         });
+    
     $locationProvider.html5Mode(true);
+    
 });
 

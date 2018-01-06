@@ -43,3 +43,23 @@ body {
 .test{
     text-align: center;
 }
+
+label {
+    float: left;
+    padding-right:10px;
+}
+
+.contact{
+    min-width: 20%;
+    max-width: 100%;
+}
+
+textarea {
+    width: 100%;
+    box-sizing:border-box;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+}
