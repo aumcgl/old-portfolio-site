@@ -1,5 +1,13 @@
 <div class="jumbotron text-center">
 	<h1>Portfolio Home</h1>
-	
-	<p>{{ message }}</p>
+    
+    <p>{{ test }}</p>
+    
+    <table>
+        <tr ng-repeat="project in projects">
+            <td>{{project.title}}</td>
+            <td>{{project.date}}</td>
+        </tr>
+    </table>
+    
 </div>

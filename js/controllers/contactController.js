@@ -1,3 +1,3 @@
 myApp.controller('contactController', function($scope){
-    $scope.message = 'Contact me!';
+    $scope.message = 'ausmcg335ej@gmail.com';
 });
