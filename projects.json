@@ -1,7 +1,8 @@
 [
     {
         "title" : "Sample Title", 
-        "date" : "01/01/2001"
+        "date" : "01/01/2001",
+        "image" : "../img/sora.jpg"
     },
     {
         "title" : "Sample Title 2", 

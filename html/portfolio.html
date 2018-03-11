@@ -1,12 +1,11 @@
 <div class="jumbotron text-center">
 	<h1>Portfolio Home</h1>
     
-    <p>{{ test }}</p>
-    
     <table>
         <tr ng-repeat="project in projects">
             <td>{{project.title}}</td>
             <td>{{project.date}}</td>
+            <td><picture><img src={{project.image}} style="width:100px;"></picture></td>
         </tr>
     </table>
     
