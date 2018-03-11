@@ -1,11 +1,24 @@
 [
     {
+        "modalID" : "md01",
         "title" : "Sample Title", 
         "date" : "01/01/2001",
-        "image" : "../img/sora.jpg"
+        "image" : "../img/sora.jpg",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah"
     },
     {
+        "modalID" : "md02",
         "title" : "Sample Title 2", 
-        "date" : "02/02/2002"
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah"
+    },
+    {
+        "modalID" : "md03",
+        "title" : "Sample Title 3", 
+        "date" : "03/03/2003",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah"
     }
 ]
