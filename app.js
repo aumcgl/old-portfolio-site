@@ -24,6 +24,9 @@ myApp.config(function($routeProvider, $locationProvider) {
          templateUrl : 'html/portfolio.html',
          controller  : 'portController'
          })
+    .when('/blogRedirect',{
+         templateUrl : 'html/redirect.html'
+        })
     .when('/html/index.html', { 
       redirectTo: '/' 
         });

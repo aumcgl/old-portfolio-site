@@ -2,7 +2,41 @@
 	<h1>This is me!</h1>
     <p>{{ message }}</p>
 	<div layout="row">
-        <div flex>Notable Projects</div>
-        <div flex>Recent Blog Posts</div>
+        <div flex>
+            <p>Notable Projects:</p>
+            <table>
+                <tr ng-repeat="project in projects" ng-if="project.notable == true">
+                    <td>{{project.title}}</td>
+                    <td>
+                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#{{project.modalID}}">See more</button>
+                        <div class="modal fade" id={{project.modalID}} role="dialog">
+                            <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">{{project.title}}: {{project.date}}</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>{{project.description}}</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <button><a href="/portfolio">See all projects</a></button>
+        </div>
+        
+        <div flex>
+            <p>Recent Blog Posts</p>
+            <p>Coming soon!</p>
+            <button><a href="/blogRedirect">Go to Wordpress Blog</a></button>
+        </div>
     </div>
 </div>
