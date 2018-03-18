@@ -1,35 +1,51 @@
 <div class="jumbotron text-center">
-	<h1>Portfolio Home</h1>
+	<h1>Portfolio Home</h1>    
     
-    <table align="center" width=85%>
-        <tr ng-repeat="project in projects">
-            <td>{{project.title}}</td>
-            <td>{{project.date}}</td>
-            <td>{{project.preview}}</td>
-            <td><picture><img src={{project.image}} style="width:100px;"></picture></td>
-            <td>
+    <br/>
+    
+    <!-- TEST -->
+    <div ng-repeat="project in projects" class="pTables">
+        <table align="left" class="idTable">
+            <tr class="idRow">
+                <td class="pTitle">{{project.title}}</td>
+                <td class="pDate">{{project.date}}</td>
+            </tr>
+        </table>
+        <table align="center" class="contentTable">
+            <tr class="contentRow">
+                <td colspan="2" class="pText">{{project.preview}}</td>
+                <td rowspan="2" class="pImageCell"><picture><img src={{project.image}} class="pImage"></picture></td>
+            </tr>
+                <!-- MODAL -->
+            <tr class="tagRow">
+                <td class="pTags"><span class='bigger'>TAGS: </span>tags</td>
+                <td class="pModal">
                 <!-- Modal structure taken directly from www.w3schools.com -->
-                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#{{project.modalID}}">See more</button>
-                <div class="modal fade" id={{project.modalID}} role="dialog">
-                    <div class="modal-dialog">
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#{{project.modalID}}">See more</button>
+                    <div class="modal fade" id={{project.modalID}} role="dialog">
+                        <div class="modal-dialog">
     
-                    <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">{{project.title}}: {{project.date}}</h4>
-                            </div>
-                            <div class="modal-body">
-                                <p>{{project.description}}</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">{{project.title}}: {{project.date}}</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>{{project.description}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>          
+                        
                         </div>
                     </div>
-                </div>
-            </td>
-        </tr>
-    </table>
-    
+                </td>    
+            </tr>
+        </table>
+        <br/>
+        <br/>
+    </div>
+      
 </div>
