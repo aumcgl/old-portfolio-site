@@ -9,6 +9,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+        
+        <!-- JQUERY AND BOOTSTRAP -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -41,10 +43,12 @@
         
         <!-- HTML INJECTION FROM ROUTING -->
         <div id="main">
-            <div layout="row">
-                <div flex="15">Row item 1</div>
-                <div flex="70"><div ng-view></div></div>
-                <div flex="15">Row item 3</div>
+            <div layout="row" class="flexContainer">
+                <div class="item">
+                    <img src="img/profile.jpg" class="profilePic"/>
+                </div>
+                <div class="item"><div ng-view></div></div>
+                <div class="item">Row item 3</div>
             </div>
         </div>
         

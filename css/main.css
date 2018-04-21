@@ -63,3 +63,31 @@ span {
     display: block;
     overflow: hidden;
 }
+
+.profilePic{
+    border-radius: 50%;
+    max-width: 60%;
+    padding: 
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.item:nth-child(1){
+    flex: 15%;
+    justify-content: center;
+}
+
+.item:nth-child(2){
+    flex: 70%;
+}
+
+.item:nth-child(3){
+    flex: 15%;
+}
+
+@media screen and (max-width:990px) {
+  .flexContainer { flex-wrap: wrap; }
+  .item:first-child { flex-basis: 100%; }
+}
