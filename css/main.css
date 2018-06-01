@@ -36,58 +36,90 @@ ul.nav.navbar-nav a:hover{
 
 /*BODY*/
 
-body { 
-    padding-top: 130px !important; 
-}
-
-.test{
-    text-align: center;
-}
-
-label {
-    float: left;
-    padding-right:10px;
-}
-
-.contact{
-    min-width: 20%;
-    max-width: 100%;
-}
-
-textarea {
+/*textarea {
     width: 100%;
     box-sizing:border-box;
-}
+}*/
 
-span {
+/*span {
     display: block;
     overflow: hidden;
+}*/
+
+body{
+    padding-top: 130px !important; /*for navbar */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#main{
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content{
+    flex: 10 1 0%;
+    overflow: scroll;
+    height: 100vh;
+}
+
+/*SIDE BARS*/
+
+.leftBar{
+    flex: 2 1 0%;
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profilePic{
     border-radius: 50%;
-    max-width: 60%;
-    padding: 
+    max-width: 70%;
+    min-width: 110px;
 }
 
-.flexContainer{
+.rightBar{
+    flex: 1 1 0%;
+}
+
+.iconflex{
     display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
 }
 
-.item:nth-child(1){
-    flex: 15%;
-    justify-content: center;
+.iconflex img{
+    min-height: 50px;
+    margin: 10px;
 }
 
-.item:nth-child(2){
-    flex: 70%;
+.head, .footer{
+    text-align: center;
+    padding: 20px;
 }
 
-.item:nth-child(3){
-    flex: 15%;
+/*RESUME PAGE*/
+.resumeflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    width: inherit;
 }
 
-@media screen and (max-width:700px) {
-  .flexContainer { flex-wrap: wrap; }
-  .item:first-child { flex-basis: 100%; }
+.resumeflex h1{
+    
+}
+
+.resumeflex p{
+    
+}
+
+.resume{
 }
