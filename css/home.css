@@ -1,0 +1,25 @@
+.homeflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+
+.homebottom{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: space-around;
+}
+
+.homeprojects{
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategrey;
+}
+
+.homeblogs{
+    display: flex;
+    flex-direction: column;
+}

@@ -21,6 +21,8 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
         <link href="css/main.css" rel = "stylesheet" />
         <link href="css/projectStyle.css" rel = "stylesheet" />
+        <link href="css/home.css" rel = "stylesheet" />
+        <link href="css/picbar.css" rel = "stylesheet" />
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
         
         <!-- MAIN JS AND ROUTING -->
@@ -46,6 +48,7 @@
             <div class="content"><div ng-view></div></div>
             <div class="leftBar">
                 <img src="img/profile.jpg" class="profilePic"/>
+                <div ng-include="'html/picbar.html'"></div>
             </div>
             <div class="rightBar"><div ng-include="'html/iconbar.html'"></div></div>
         </div>

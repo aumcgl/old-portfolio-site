@@ -1,3 +1,9 @@
+/*GENERA:*/
+
+h2, p{
+    font-family: "Courier New";
+}
+
 /*NAVBAR*/
 
 .header{
@@ -74,12 +80,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: -15px;
+    margin-right: 10px;
 }
 
 .profilePic{
     border-radius: 50%;
     max-width: 70%;
     min-width: 110px;
+    box-shadow: -8px 4px 6px black;
+    border: 10px solid darkslategrey;
+    border-top-left-radius: 4px;
+    margin-bottom: 15px;
 }
 
 .rightBar{
@@ -104,6 +116,12 @@ body{
     padding: 20px;
 }
 
+.picbar ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
 /*RESUME PAGE*/
 .resumeflex{
     display: flex;
@@ -123,3 +141,5 @@ body{
 
 .resume{
 }
+
+
