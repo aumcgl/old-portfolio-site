@@ -39,6 +39,8 @@
     <!-- THE ACTUAL WEB APP -->
     <body ng-controller="mainController">
         
+        <script src="js/directives/expand.js"></script>
+        
         <!-- NAVBAR -->
         <div ng-include="'html/navbar.html'"></div>
     
@@ -53,15 +55,15 @@
             <div class="rightBar"><div ng-include="'html/iconbar.html'"></div></div>
         </div>
         
-        <!-- FOOTER -->
-        <div class="footer"></div>
-        
         <!-- CONTROLLERS -->
         <script src="js/controllers/contactController.js"></script>
         <script src="js/controllers/blogController.js"></script>
         <script src="js/controllers/ccvController.js"></script>
         <script src="js/controllers/portController.js"></script>
         <script src="js/controllers/mainController.js"></script>
+        
+        <!-- FOOTER -->
+        <div class="footer"></div>
         
     </body>
     <!-- END OF APP -->
