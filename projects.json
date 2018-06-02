@@ -3,7 +3,6 @@
         "modalID" : "md01",
         "title" : "Python Natural Language Processing Portfolio", 
         "date" : "01/01/2001",
-        //"image" : "../img/sora.jpg",
         "preview" : "quick description",
         "description" : "full length description, blah blah blah",
         "notable" : true
