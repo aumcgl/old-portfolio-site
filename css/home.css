@@ -1,6 +1,5 @@
 .homeflex{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     align-content: space-around;
@@ -11,15 +10,53 @@
     flex-direction: row;
     min-width: 100%;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 .homeprojects{
     display: flex;
     flex-direction: column;
-    background-color: darkslategrey;
+    width: 40%;
+}
+
+.homeprojects table{
+    border-radius: 5%;
 }
 
 .homeblogs{
     display: flex;
     flex-direction: column;
+    width: 40%;
+}
+
+.projtop{
+    color:azure;
+    font-family: "Arial Black";
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: darkslategray;
+}
+
+.protitle{
+    font-family: "Courier New";
+    font-size: 15px;
+    text-align: center;
+    background-color: lightgrey;
+    padding-top: 10px;
+    border-bottom: 1px, solid, black;
+    font-weight: 545;
+}
+
+.buttoncol{
+    width:20%;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.homehead p{
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
 }

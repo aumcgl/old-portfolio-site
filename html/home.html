@@ -1,15 +1,18 @@
-<div class="homeflex">
-	<h2>Austin McGlothlin: The TokuGeek</h2>
+<div class="homehead">
+    <h2>Austin McGlothlin:</h2> 
+    <h2>The TokuGeek</h2>
     <p>{{ message }}</p>
     <br/>
+</div>
+
+<div class="homeflex">
 	<div class="homebottom">
         <div class="homeprojects">
-            <p>Notable Projects:</p>
-            <p>Under Construction</p>
             <table>
+                <tr class="projtop"><td colspan="2">Ongoing Projects:</td></tr>
                 <tr ng-repeat="project in projects" ng-if="project.notable == true">
-                    <td>{{project.title}}</td>
-                    <td>
+                    <td class="protitle">{{project.title}}</td>
+                    <td class="buttoncol">
                         <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#{{project.modalID}}">See more</button>
                         <div class="modal fade" id={{project.modalID}} role="dialog">
                             <div class="modal-dialog">

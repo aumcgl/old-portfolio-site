@@ -1,7 +1,7 @@
 [
     {
         "modalID" : "md01",
-        "title" : "Sample Title", 
+        "title" : "Python Natural Language Processing Portfolio", 
         "date" : "01/01/2001",
         "image" : "../img/sora.jpg",
         "preview" : "quick description",
@@ -10,7 +10,71 @@
     },
     {
         "modalID" : "md02",
-        "title" : "Sample Title 2", 
+        "title" : "Game Dev Master Study #1: The Legend of Zelda", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : true
+    },
+    {
+        "modalID" : "md03",
+        "title" : "Japanese-English Translation #2: Miyu's You Are by My Side Novel", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : true
+    },
+    {
+        "modalID" : "md04",
+        "title" : "TokuGeek Portfolio Website", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : true
+    },
+    {
+        "modalID" : "md05",
+        "title" : "Japanese-English Translation #1: Persona 5 New Game Plus Guide", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : false
+    },
+    {
+        "modalID" : "md06",
+        "title" : "Team Initiated Study in Game Dev - Loch Gair Manor Prototype", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : false
+    },
+    {
+        "modalID" : "md07",
+        "title" : "Humidity and Temperature Sensor for Pine Mountain Settlement School", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : false
+    },
+    {
+        "modalID" : "md08",
+        "title" : "Ikigai - Side Scrolling Game Test in Unity Engine", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : false
+    },
+    {
+        "modalID" : "md09",
+        "title" : "CodeWorkout Q&A Database", 
+        "date" : "02/02/2002",
+        "preview" : "quick description",
+        "description" : "full length description, blah blah blah",
+        "notable" : false
+    },
+    {
+        "modalID" : "md10",
+        "title" : "Faculty Development Event Attendance Database - Berea College", 
         "date" : "02/02/2002",
         "preview" : "quick description",
         "description" : "full length description, blah blah blah",

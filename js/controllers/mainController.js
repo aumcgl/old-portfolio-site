@@ -1,5 +1,5 @@
 myApp.controller('mainController', function($scope, $http){
-    $scope.message = 'Welcome to my portfolio! I regret to inform you that my portfolio is still in its final stages of development. Thank you for your time visiting my page, and I hope you will visit again in the coming days as the website is completed. For the meantime, please check out my Resume page, my Blog and also go to my Contact page to see my other social media accouts! ';
+    $scope.message = 'Welcome to my portfolio! Thank you for your time visiting my page! I am adding new features and content everyday, such as displaying recent blog posts from my wordpress and adding more and more projects that Im working on, so please keep checking in! Please check out my portfolio to see what Ive been working on!';
     
      $http.get('../../projects.json').then(function (response) {
                 $scope.projects= response.data;
