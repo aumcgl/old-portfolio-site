@@ -10,7 +10,7 @@
     },
     {
         "modalID" : "md02",
-        "title" : "Game Dev Master Study #1: The Legend of Zelda", 
+        "title" : "Game Dev Master Study 1: The Legend of Zelda", 
         "date" : "02/02/2002",
         "preview" : "quick description",
         "description" : "full length description, blah blah blah",
@@ -18,7 +18,7 @@
     },
     {
         "modalID" : "md03",
-        "title" : "Japanese-English Translation #2: Miyu's You Are by My Side Novel", 
+        "title" : "Japanese-English Translation 2: Miyu's You Are by My Side Novel", 
         "date" : "02/02/2002",
         "preview" : "quick description",
         "description" : "full length description, blah blah blah",
@@ -34,7 +34,7 @@
     },
     {
         "modalID" : "md05",
-        "title" : "Japanese-English Translation #1: Persona 5 New Game Plus Guide", 
+        "title" : "Japanese-English Translation 1: Persona 5 New Game Plus Guide", 
         "date" : "02/02/2002",
         "preview" : "quick description",
         "description" : "full length description, blah blah blah",
