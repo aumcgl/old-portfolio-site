@@ -20,7 +20,7 @@
 }
 
 .homeprojects table{
-    border-radius: 5%;
+    box-shadow: 8px, 8px, black;
 }
 
 .homeblogs{
