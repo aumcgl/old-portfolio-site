@@ -8,6 +8,5 @@ myApp.controller('portController', function($scope, $http) {
             function (error){
                 console.log(error);
         });
-
 });
 

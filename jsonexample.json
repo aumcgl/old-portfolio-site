@@ -1,0 +1,21 @@
+[
+    {
+        "modalID" : "random id in format - md##",
+        "title" : "name of project", 
+        "date" : "date text",
+        "preview" : "preview text",
+        "description" : "full length description, blah blah blah",
+        "image1": "file/path",
+        "image2": "file/path",
+        "image3": "file/path",
+        "image4": "file/path",
+        "image5": "file/path",
+        "link1_text": "Name of link",
+        "link1": "URL",
+        "link2_text": "Name of link",
+        "link2": "URL",
+        "link3_text": "Name of link",
+        "link3": "URL",
+        "notable" : false
+    }
+]

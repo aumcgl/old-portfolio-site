@@ -1,0 +1,30 @@
+<div class="modal fade" id={{project.modalID}} role="dialog">
+    <div class="modal-dialog">
+
+    <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-title">{{project.title}}: {{project.date}}</div>
+            </div>
+            <div class="all-links">
+                <a href="{{project.link1}}" target="_blank">{{project.link1_text}}</a>
+                <a href="{{project.link2}}" target="_blank">{{project.link2_text}}</a>
+                <a href="{{project.link3}}" target="_blank">{{project.link3_text}}</a>
+            </div>
+            <div class="modal-body">
+                <p>{{project.description}}</p>
+            </div>
+            <div class="modal-footer">
+                <div class="imagegroup">
+                    <img class="image" src="{{project.image1}}"/>
+                    <img class="image" src="{{project.image2}}"/>
+                    <img class="image" src="{{project.image3}}"/>
+                    <img class="image" src="{{project.image4}}"/>
+                    <img class="image" src="{{project.image5}}"/>
+                </div>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

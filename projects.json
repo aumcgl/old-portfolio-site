@@ -1,18 +1,25 @@
 [
-    {
+     {
         "modalID" : "md01",
-        "title" : "Python Natural Language Processing Portfolio", 
-        "date" : "01/01/2001",
-        "preview" : "quick description",
-        "description" : "full length description, blah blah blah",
+        "title" : "Natural Language Processing Self-Learning", 
+        "date" : "June 2018 - Ongoing",
+        "preview" : "Following Udemy coursework, I am using Python to learn the basics and some advanced concepts in Natural Language Processing. This will include multiple mini projects on which more information is coming soon. Please check back here and on my blog!",
+        "description" : "Following Udemy coursework, I am using Python to learn the basics and some advanced concepts in Natural Language Processing. This will include multiple mini projects on which more information is coming soon. Please check back here and on my blog",
+        "image1": "img/sora.jpg",
         "notable" : true
     },
     {
         "modalID" : "md02",
         "title" : "Game Dev Master Study 1: The Legend of Zelda", 
-        "date" : "02/02/2002",
-        "preview" : "quick description",
+        "date" : "April-May 2018",
+        "preview" : "My first master study in game design, apart of a series of projects where I analyze and try to recreate parts of old classics to learn game development and design.",
         "description" : "full length description, blah blah blah",
+        "image1" : "img/zelda1.jpg",
+        "image2" : "img/zelda2.jpg",
+        "link1_text": "Windows Demo Download",
+        "link1": "https://drive.google.com/open?id=1GEa8HMsdeENbt9mOkbXnbd3evto13tcq",
+        "link2_text": "Mac Demo Download",
+        "link2": "https://drive.google.com/open?id=1mAHbTR_xEAKcHrUX4zf5yGw__9m-Tf-S",
         "notable" : true
     },
     {

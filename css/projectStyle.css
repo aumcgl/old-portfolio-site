@@ -2,18 +2,25 @@ tables, td, tr{
     
 }
 
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .pTables{
-    
+
 }
 
 .pTitle{
-    width: 40%;
     text-align: left;
 }
 
 .pDate{
-    width: 60%;
-    text-align: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 20px;
 }
 
 .pText{
@@ -23,18 +30,17 @@ tables, td, tr{
 }
 
 .pImageCell{
-    max-width:35%;
     background-color: black;
 }
 
 .pImage{
-    width:auto;
+    max-width:300px;
     height: 40%;
+    object-fit: cover;
 }
 
 .idTable{
     width: 70%;
-    margin-left: 150px;
 }
 
 .idRow{
@@ -46,7 +52,6 @@ tables, td, tr{
 
 .contentTable{
     width: 65%;
-    margin-left: 165px;
     border: 1px solid white;
     background-color: black;
     color:ghostwhite;
@@ -55,6 +60,10 @@ tables, td, tr{
 .contentRow{
     margin-left: 50px;
     height:100%;
+    font-family: "Courier New";
+    font-size: 20px;
+    text-align: left;
+    text-indent: 20px;
 }
 
 .tagRow{
@@ -70,6 +79,7 @@ tables, td, tr{
 
 .pModal{
     max-width: 15%;  
+    margin-left: 65%;
 }
 
 .btn{
