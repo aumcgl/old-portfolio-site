@@ -16,6 +16,7 @@
         "link2": "URL",
         "link3_text": "Name of link",
         "link3": "URL",
+        "tags" : "Tags | in | this | format",
         "notable" : false
     }
 ]
